@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fermor — Financial Planning Landing Page
 
-## Getting Started
+A modern, responsive financial planning landing page built with Next.js and Tailwind CSS. The interface is designed around a clean editorial style that makes financial information feel simple, approachable, and easy to understand.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[View the live website](https://fermor-homepage.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Repository
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[GitHub Repository](https://github.com/PSRajput3377/fermor-homepage)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Overview
 
-To learn more about Next.js, take a look at the following resources:
+Fermor is a frontend concept for a personal financial planning platform.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The goal of the project is to present financial information in a clear and approachable way while maintaining a polished, minimal interface.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The landing page includes:
 
-## Deploy on Vercel
+- Responsive navigation
+- Hero section with primary CTA
+- "How it works" section
+- Financial overview section
+- Common financial questions
+- Financial planning section
+- Small financial moves and recommendations
+- Final call-to-action
+- Responsive footer
+- Mobile navigation menu
+- Scroll-based animations
+- Scroll progress indicator
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Features
+
+### Responsive Design
+
+The website is designed to work across:
+
+- Desktop
+- Tablet
+- Mobile
+
+The navigation includes a dedicated mobile menu for smaller screens.
+
+### Scroll Animations
+
+Sections use subtle scroll-based animations including:
+
+- Fade-in
+- Vertical and horizontal movement
+- Scale transitions
+- Blur-to-sharp transitions
+- Subtle rotation
+- Re-triggered animations when scrolling in both directions
+
+### Interactive UI
+
+Interactive elements include:
+
+- Navigation links
+- CTA buttons
+- Hover states
+- Animated arrow interactions
+- Mobile navigation
+- Smooth scrolling
+
+### Financial Dashboard Concept
+
+The financial overview section presents financial information through a visual dashboard-style interface with:
+
+- Financial metrics
+- Progress indicators
+- Visual chart elements
+- Planning insights
+
+---
+
+## Tech Stack
+
+- **Next.js 16**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Motion**
+- **Lucide React**
+- **Vercel**
+- **GitHub**
+
+---
+
+## Project Structure
+
+```text
+fermor-homepage/
+│
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── FinalCTA.tsx
+│   ├── FinancialOverview.tsx
+│   ├── Footer.tsx
+│   ├── Hero.tsx
+│   ├── HowItWorks.tsx
+│   ├── Navbar.tsx
+│   ├── Planning.tsx
+│   ├── Questions.tsx
+│   ├── ScrollProgress.tsx
+│   ├── ScrollReveal.tsx
+│   └── SmallMoves.tsx
+│
+├── public/
+│
+├── package.json
+├── package-lock.json
+├── next.config.ts
+├── tsconfig.json
+└── README.md
