@@ -4,7 +4,7 @@ A modern, responsive financial planning landing page built with Next.js and Tail
 
 ## Live Demo
 
-[View the live website](https://fermor-homepage.vercel.app)
+[View the live website](https://fermor-homepage-iota.vercel.app/)
 
 ## Repository
 
